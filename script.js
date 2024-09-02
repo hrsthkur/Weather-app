@@ -33,22 +33,22 @@ try {
     discription.innerHTML = `${weatherData.weather[0].description}`
     switch (weatherData.weather[0].main) {
         case 'Clouds':
-            weatherImage.src = "assets/cloud.png"
+            weatherImage.src = "Weather-app/assets/404.png"
             break;
         
         case 'Mist':
-            weatherImage.src = "assets/mist.png"
+            weatherImage.src = "Weather-app/assets/mist.png"
             break;
         
         case 'Clear':
-            weatherImage.src = "assets/clear.png"
+            weatherImage.src = "Weather-app/assets/clear.png"
             break;
         
         case 'Snow':
-            weatherImage.src = "assets/snow.png"
+            weatherImage.src = "Weather-app/assets/snow.png"
             break;
         case 'Rain':
-            weatherImage.src = "assets/rain.png"
+            weatherImage.src = "Weather-app/assets/rain.png"
             break;
         
        
